@@ -1,17 +1,75 @@
-body {
-    background: moccasin;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+html {
+  box-sizing: border-box;
 }
 
-h1 {
-    color:salmon;
-    text-align: center;
-    font-weight: 1000;
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+body{
+  margin: 0px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.site-header {
+  background-color: #00a591;
+  text-align: center;
+  padding: 10px;
+}
+
+div.title-text a{
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 1000;
+}
+
+.inline-block{
+  display: inline-block;
+}
+
+.site-content{
+  background-color: #ffffff;
+  padding: 50px 20px;
+  max-width: 1000px;
+  margin: 0px auto;
+}
+
+.main-card{
+  background-color: #ffffff;
+  max-width: 85%;
+  width: 100%;
+  margin: 0px auto;
+}
+
+.card-container{
+  position: relative;
+  padding-bottom: 60%;
+}
+
+.img-container,
+.txt-container{
+	position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+}
+
+.txt-container{
+  top: 87.5%;
+  left: 5%;
+  font-size: 1.5em;
+  color: #ffffff;
+}
+
+.img-container{
+  margin: 2px;
+}
+
+.card-img{
+  width: 100%;
+  height: 85%;
+  object-fit: cover;
 }
