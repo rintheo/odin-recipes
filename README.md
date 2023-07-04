@@ -3,5 +3,5 @@ A basic recipe website. A simple project to practice HTML knowledge learned from
 
 - Added some simple CSS
 
-# To implement
+## To implement
 - Possibly improve HTML and CSS layout in the future
